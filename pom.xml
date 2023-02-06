@@ -61,8 +61,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>http://sonarqube-pkr-demo.apps.ocp4.imss.com/</sonar.host.url>
-	       <sonar.login>sqa_6bb090a174c8fb26ea048646dfb8f46108a1480b</sonar.login>
+               <sonar.host.url>http://sonar-praveenkumar-reddy.apps.ocp4.imss.com/</sonar.host.url>
+	       <sonar.login>sqp_8113ae1c5fa3945dbc680e15d789a284a6b26bc4</sonar.login>
                <sonar.projectName>ci-pipeline</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
