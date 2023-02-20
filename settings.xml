@@ -16,7 +16,7 @@
     <mirror>
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>https://nexus-praveenkumar-reddy.apps.ocp4.imss.com/repository/maven-proxy-repo/</url>
+      <url>https://repo1.maven.org/maven2/</url>
     </mirror>
   </mirrors>
   <profiles>
