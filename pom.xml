@@ -60,7 +60,7 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-           3 <properties>
+           # <properties>
             #   <sonar.host.url>http:///</sonar.host.url>
 	     #  <sonar.login>sqp_8113ae1c5fa3945dbc680e15d789a284a6b26bc4</sonar.login>
               # <sonar.projectName>ci-pipeline</sonar.projectName>
