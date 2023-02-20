@@ -60,14 +60,14 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <properties>
-               <sonar.host.url>http://sonar-praveenkumar-reddy.apps.ocp4.imss.com/</sonar.host.url>
-	       <sonar.login>sqp_8113ae1c5fa3945dbc680e15d789a284a6b26bc4</sonar.login>
-               <sonar.projectName>ci-pipeline</sonar.projectName>
-               <sonar.projectVersion>main</sonar.projectVersion>
-               <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
-               <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
-            </properties>
+           3 <properties>
+            #   <sonar.host.url>http:///</sonar.host.url>
+	     #  <sonar.login>sqp_8113ae1c5fa3945dbc680e15d789a284a6b26bc4</sonar.login>
+              # <sonar.projectName>ci-pipeline</sonar.projectName>
+               #<sonar.projectVersion>main</sonar.projectVersion>
+               #<sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
+               #<sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
+           # </properties>
         </profile>
         <profile>
             <id>coverage</id>
